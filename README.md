@@ -2,18 +2,17 @@
 <p>The Google URL Shortener API allows you to shorten URLs just as you would on goo.gl</p><br>
 
 <p>This is Meteor code that you can use to shorten the url where "url" will be replaced with the actual url.</p>
-<p>
-  Meteor.call("shortenUrl", "http://www.asveloper.com", function(error, result){<br>
-    if(error){<br>
-      console.log(error);<br>
-    }else{<br>
-      console.log(result);<br>
-    }<br>
+<code>
+  Meteor.call("shortenUrl", "http://www.asveloper.com", function(error, result){
+    if(error){
+      console.log(error);
+    }else{
+      console.log(result);
+    }
   });
-</p>
-<br>
+</code>
+
 <h3>Output:</h3>
-<br>
 <p>
   {<br>
    "kind": "urlshortener#url",<br>
