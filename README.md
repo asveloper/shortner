@@ -21,7 +21,10 @@
   }
 </p>
 
-<br>
+<p>
+  For more details you can visit: https://developers.google.com/url-shortener/v1/getting_started
+</p>
+
 
 <h2>Contributors</h2>
 <a href="https://github.com/asveloper">Arslan Nasir</a>
